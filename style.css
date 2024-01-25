@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap');
+*{
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+.container{
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+
+}
+.hexContainer, .rgbContainer{
+    min-height: 100vh;
+    flex: 1;
+}
+.hexContainer{
+    
+    background-color: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.hexContainer p{
+    padding: 15px 100px;
+    color: black;
+    font-size: 20px;
+    background-color: #fff;
+    transition: .1s;
+    user-select: none;
+}
+.hexContainer p:hover{
+    background: #95a5a6;
+    transition: .1s;
+}
+.hexContainer button{
+    padding: 15px 100px;
+    color: black;
+    font-size: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .1s;
+}
+.hexContainer button:hover{
+    background: #95a5a6;
+    transition: .1s;
+ }
+
+.rgbContainer{
+    
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+.rgbContainer p{
+    color: #fff;
+    user-select: none;
+    font-size: 30px;
+
+}
+
+.rgbContainer button{
+    padding: 15px 100px;
+    color: black;
+    font-size: 20px;
+    background-color: #fff;
+    cursor: pointer;
+    transition: .1s;
+}
+.rgbContainer button:hover{
+   background: #95a5a6;
+   transition: .1s;
+}
+.rgbContainer label{
+  color: #fff;
+  font-size: 25px;
+}
